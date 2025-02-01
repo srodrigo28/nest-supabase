@@ -6,9 +6,6 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "build1": "nest build",
-    "build2": "nest build --output dist",
-    "start2": "node dist/server.js",
     "start1": "nest start",
     
     "build": "tsc --build",
