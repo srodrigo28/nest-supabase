@@ -8,7 +8,13 @@
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "nest start",
+    "start1": "nest start",
+    "start2": "node dist/server.js",
+    
+    "start": "node dist/main.js",
+    "verceul-build": "prisma generate && prisma migrate deploy",
+    "prisma:generate": "prisma generate",
+    
     "dev": "nest start",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",

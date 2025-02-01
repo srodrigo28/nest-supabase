@@ -17,3 +17,15 @@ npm i -D @types/bcrypt
 #### Ref.
 
 https://www.youtube.com/watch?v=iP7-1syNTY0
+
+
+#### Gerando build
+npm run build
+
+
+#### package.json
+```
+"start": "node dist/main.js",
+"verceul-build": "prisma generate && prisma migrate deploy",
+"prisma:generate": "prisma generate",
+```
