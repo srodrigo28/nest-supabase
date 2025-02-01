@@ -7,12 +7,15 @@
   "license": "UNLICENSED",
   "scripts": {
     "build1": "nest build",
-    "build": "nest build --output public",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start1": "nest start",
+    "build2": "nest build --output dist",
     "start2": "node dist/server.js",
+    "start1": "nest start",
     
+    "build": "tsc --build",
     "start": "node dist/main.js",
+
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    
     "verceul-build": "prisma generate && prisma migrate deploy",
     "prisma:generate": "prisma generate",
     
