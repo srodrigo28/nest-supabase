@@ -2,9 +2,8 @@
     "version": 2, 
     "builds": [
         {
-            "src": "src/main",
-            "use": "@vercel/node",
-            "config": { "includeFiles": ["dist/**"]}
+            "src": "src/main.ts",
+            "use": "@vercel/node"
         }
     ],
     "routes": [
@@ -13,6 +12,5 @@
             "dest": "src/main.ts",
             "methods": ["GET", "PATCH", "POST", "PUT", "DELETE"]
         }
-    ],
-    "outputDirectory": "dist"
+    ]
 }
