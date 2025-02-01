@@ -6,6 +6,9 @@ npm install
 * rodar o prisma migrate
 npx prisma migrate dev
 
+* cors
+npm install cors @types/cors
+
 ### instalando o nest/jwt
 npm install --save @nestjs/jwt
 

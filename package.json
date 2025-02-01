@@ -7,15 +7,12 @@
   "license": "UNLICENSED",
   "scripts": {
     "start1": "nest start",
-    
     "build": "tsc --build",
+    "build2": "nest build --output public",
     "start": "node dist/main.js",
-
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    
     "verceul-build": "prisma generate && prisma migrate deploy",
     "prisma:generate": "prisma generate",
-    
     "dev": "nest start",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
@@ -34,7 +31,9 @@
     "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^10.0.0",
     "@prisma/client": "^6.0.1",
+    "@types/cors": "^2.8.17",
     "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1"
   },
