@@ -1,0 +1,26 @@
+GET http://localhost:3001/produto
+
+###
+GET http://localhost:3001/produto/3
+
+###
+POST http://localhost:3001/produto
+Content-Type: application/json
+
+{
+    "nome": "Alesandra Oliveira",
+    "descricao": "camisa jeans 2024",
+    "preco": 120
+}
+
+###
+PATCH  http://localhost:3001/produto/10
+Content-Type: application/json
+
+{
+    "nome": "coca2 cola lata"
+}
+
+###
+DELETE   http://localhost:3001/produto/110
+Content-Type: application/json
