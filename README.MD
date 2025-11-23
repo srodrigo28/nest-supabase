@@ -1,5 +1,8 @@
+<div align="center">
 
 ### Para rodar o projeto
+</div
+
 * apos baixar do github
 npm install
 
@@ -21,10 +24,8 @@ npm i -D @types/bcrypt
 
 https://www.youtube.com/watch?v=iP7-1syNTY0
 
-
 #### Gerando build
 npm run build
-
 
 #### package.json
 ```
